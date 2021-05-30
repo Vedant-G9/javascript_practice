@@ -1,0 +1,14 @@
+//TO CONNECT
+git remote add origin https://github.com/pyvedantgiri/JAVASCRIPT_PRA.git
+
+1. git init
+2. git add .
+3. git commit -m "Loop stuff" .
+4. git remote add origin https://github.com/pyvedantgiri/JAVASCRIPT_PRA.git
+5. git push origin magit ster
+
+//2nd time 
+
+1. git add .
+2. git commit -m "msg" .
+3. git push origin master
