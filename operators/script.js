@@ -20,10 +20,15 @@ result = a + b;
 //Exponent
 //result = a ** b;
 
-//
+
 //Modulo-> 12 mod 11 = 1
 //result = 12 % 11;
 //result = a % b;
 
+//Increment
+//result ++;
+
+//Decrement
+//result --;
 
 console.log(result);
