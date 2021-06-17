@@ -1,11 +1,11 @@
 //TO CONNECT
-git remote add origin https://github.com/pyvedantgiri/JAVASCRIPT_PRA.git
+git remote add origin https://github.com/Vedant-G9/JAVASCRIPT_PRA.git
 
 1. git init
 2. git add .
 3. git commit -m "Loop stuff" .
-4. git remote add origin https://github.com/pyvedantgiri/JAVASCRIPT_PRA.git
-5. git push origin magit ster
+4. git remote add origin https://github.com/Vedant-G9/JAVASCRIPT_PRA.git
+5. git push origin master
 
 //2nd time 
 

@@ -27,9 +27,30 @@ const result2 = `${firstNumber + secondNumber}` ;
 
 console.log(wholeNumber);
 console.log(decimalNumber);
+
 // first result output is number 
 console.log(result);
 console.log(typeof result);
+
 // result2 output is string
 console.log(result2);
 console.log(typeof result2);
+
+//Booleans practices
+
+// true - yes , 1
+// no - no , 0
+
+const isCool = false;
+console.log(isCool);
+
+if(isCool){
+    console.log("you are cool");
+}else{
+    console.log("hi");
+}
+
+const age = 20;
+
+console.log(age > 20 );
+// console.log(typeof age);
