@@ -19,4 +19,5 @@ number = 5;
 
 console.log(number);
 console.log(typeof number);
+
 // number is integer now
