@@ -56,3 +56,16 @@ const sqr = (number) => number*number;
 
 const result1 = sqr(10);
 console.log(result1);
+
+console.log("Parameters and Arguments");
+
+// Parameters - used when defining a function
+// Arguments - passed when making a function
+
+const sayHII = (namee ='No_Name', age = 0) => {
+    console.log(`${namee} age is ${age}`);
+}
+
+sayHII();
+
+//default parameters are fail safe system
