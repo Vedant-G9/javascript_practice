@@ -29,3 +29,19 @@ if(1){
 }
 
 console.log(name);
+
+// hoisting in JavaScript --- leifted to the top of the code while it is local or global.
+var age=20;
+
+console.log(age);
+    // |
+    // |
+    // |
+    // V WHAT IT ACTUCALLY DOES
+    /**
+     * var age <---- this is hoisting
+     * 
+     * console.log(age);
+     * 
+     * var age=20;
+     */
