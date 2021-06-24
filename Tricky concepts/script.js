@@ -31,10 +31,9 @@ if(1){
 console.log(name);
 
 // hoisting in JavaScript --- leifted to the top of the code while it is local or global.
-var age=20;
 
-console.log(age);
-    // |
+// console.log(age);
+// var age=20;
     // |
     // |
     // V WHAT IT ACTUCALLY DOES
@@ -45,3 +44,19 @@ console.log(age);
      * 
      * var age=20;
      */
+
+//Closure in javascript --- a closure gives access to outter scope variable inside a inner function of a function
+
+const outer = () =>{
+
+    const outterVar = 'outterVariable'
+    const inner =() => {
+        const innerVar ='innerVariable'
+        console.log(outterVar,innerVar);
+    }
+    return inner;
+}
+
+const innerFn = outer();
+
+innerFn();
