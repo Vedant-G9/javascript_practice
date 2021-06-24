@@ -47,16 +47,16 @@ console.log(name);
 
 //Closure in javascript --- a closure gives access to outter scope variable inside a inner function of a function
 
-const outer = () =>{
+// const outer = () =>{
 
-    const outterVar = 'outterVariable'
-    const inner =() => {
-        const innerVar ='innerVariable'
-        console.log(outterVar,innerVar);
-    }
-    return inner;
-}
+//     const outterVar = 'outterVariable'
+//     const inner =() => {
+//         const innerVar ='innerVariable'
+//         console.log(outterVar,innerVar);
+//     }
+//     return inner;
+// }
 
-const innerFn = outer();
+// const innerFn = outer();
 
-innerFn();
+// innerFn();
