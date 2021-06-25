@@ -39,3 +39,20 @@ const secondLetter = name4[name4.length - 1];//--->to make string dynamically as
 console.log(firstLetter, secondLetter);
 
 
+
+console.log("Changing of Case"); // UPPERCASE and lowercase Letters
+
+
+
+const mixedCaseString = 'Hello ! How are You ?';//-----> mixed case String
+
+const lowerCaseString = 'hello ! how are you ?';//-----> lowercase String
+
+const LowerCase = mixedCaseString.toLocaleLowerCase();//---> To Lowercase
+const UpperCase = lowerCaseString.toLocaleUpperCase();//---> To UPPERCASE
+
+console.log(LowerCase);//lower
+console.log(UpperCase);//UPPER
+
+
+
