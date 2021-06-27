@@ -77,3 +77,18 @@ console.log(`Is it includes - ${includesJavaScript}`);
 // startsWith()---->checks weather that it matches to any Start of the SubString in the String
 console.log(`it has anything starts with 'I love' - ${hobbies.startsWith('I love')}`);
 
+
+
+
+
+console.log('--->Getting for a SubString<---');
+
+//getting a SubString
+
+const expString = 'Vadapav';
+
+//slice();
+
+const pav = expString.slice(4);
+
+console.log(pav);
