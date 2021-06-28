@@ -87,8 +87,22 @@ console.log('--->Getting for a SubString<---');
 
 const expString = 'Vadapav';
 
-//slice();
+//slice();------------->method use to get SubString
 
 const pav = expString.slice(4);
 
 console.log(pav);
+
+
+
+//Split a String 
+console.log("--->Split a String<---");
+
+//method name -> split()
+const expString1 = 'The Quick brown fox jumps over the lazy dog';
+const expString2 = expString1.split(' ');
+
+
+//split()
+
+console.log(expString2);
