@@ -20,7 +20,7 @@ console.log(name3);
 
 
 
-console.log("-----Length and Basic Operation-----"); //Length and Basic Operation
+console.log("---> Length and Basic Operation <---"); //Length and Basic Operation
 
 
 
@@ -40,7 +40,7 @@ console.log(firstLetter, secondLetter);
 
 
 
-console.log("-----Changing of Case-----"); // UPPERCASE and lowercase Letters
+console.log("---> Changing of Case <---"); // UPPERCASE and lowercase Letters
 
 
 
@@ -81,7 +81,7 @@ console.log(`it has anything starts with 'I love' - ${hobbies.startsWith('I love
 
 
 
-console.log('--->Getting for a SubString<---');
+console.log('---> Getting for a SubString <---');
 
 //getting a SubString
 
@@ -96,7 +96,7 @@ console.log(pav);
 
 
 //Split a String 
-console.log("--->Split a String<---");
+console.log("---> Split a String <---");
 
 //method name -> split()
 const expString1 = 'The Quick brown fox jumps over the lazy dog';
@@ -106,3 +106,32 @@ const expString2 = expString1.split(' ');
 //split()
 
 console.log(expString2);
+
+
+
+//revers,repeat and trim a String--------------------------------------
+
+
+console.log("---> Revers,Repeat and Trim a String <---")
+
+
+//revers
+console.log("Revers-");
+
+const expString3 ='test';
+const reversString = expString3.split("").reverse().join("");
+
+console.log(reversString);
+
+//repeat
+console.log("Repeat-");
+
+const dogSay = 'woof ';
+
+console.log(dogSay.repeat(4));
+
+//trim
+console.log("Trim-");
+
+const expStringtrim = 'Hello , World!    ';
+console.log(expStringtrim.trim());
