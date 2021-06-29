@@ -53,3 +53,25 @@ console.log(names);
 const noOneLikesVedu=names.slice(1);//--------copies certain parts if an array into a newly created array
 
 console.log(noOneLikesVedu);
+
+//Array forEach
+
+console.log('---> Array ForEach <---')
+
+// for(let i=0;i<names.length;i++){
+//     console.log(names[i]);-------------------simple for loop
+// }
+
+//----------------------------------------------------forEach always return undefined values
+names.forEach((name,i) => {
+    console.log(name);
+});
+
+//use when
+//use when you want to do with each element of the array
+
+//dont use when
+// you want to stop or break the loop when some condotion is true
+// working with async code
+
+
