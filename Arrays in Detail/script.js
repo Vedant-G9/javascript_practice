@@ -41,3 +41,15 @@ console.log(names);
 names.unshift('vedu');//----------adds a new value to the start of an array
 
 console.log(names);
+
+//Array Splice
+
+names.splice(2,0,'johnny','jenny');//-----------adds/removes values from any position of an array
+
+console.log(names);
+
+//Array Slice
+
+const noOneLikesVedu=names.slice(1);//--------copies certain parts if an array into a newly created array
+
+console.log(noOneLikesVedu);
