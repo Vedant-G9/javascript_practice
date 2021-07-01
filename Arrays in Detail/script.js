@@ -74,4 +74,21 @@ names.forEach((name,i) => {
 // you want to stop or break the loop when some condotion is true
 // working with async code
 
+// Array Map ----allocate memory 
+
+console.log('---> Array Map <---')
+
+const inventory = [
+        { price: 5, item_name:'bread'},
+        { price: 4, item_name:'butter'},
+        { price: 3, item_name:'jam'},
+        { price: 5, item_name:'juice'},
+
+];
+
+const prices = inventory.map((item)=> item.price);
+console.log(prices);
+
+const items = inventory.map((item)=> item.item_name);
+console.log(items);
 
