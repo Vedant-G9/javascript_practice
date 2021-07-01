@@ -74,7 +74,7 @@ names.forEach((name,i) => {
 // you want to stop or break the loop when some condotion is true
 // working with async code
 
-// Array Map ----allocate memory 
+// -----------------------------------------------Array Map ----allocate memory and COPY to new array 
 
 console.log('---> Array Map <---')
 
@@ -92,3 +92,26 @@ console.log(prices);
 const items = inventory.map((item)=> item.item_name);
 console.log(items);
 
+
+//-----------------------------------------------------------------------Array Filter
+console.log('---> Array Filter <---');
+
+const numbers = [-10,0,2,5,-7,10];
+
+const positiveNumbers = numbers.filter((number) =>number >= 0);
+console.log(positiveNumbers);
+
+const employeesData = [
+    {name: 'vedu' , overtime: 12 },
+    {name: 'meet' , overtime: 3 },
+    {name: 'nishit' , overtime: 10 },
+    {name: 'akash' , overtime: 15 },
+];
+
+const employeeRewared = employeesData.filter((emp_name) => emp_name.overtime >= 10);
+console.log(employeeRewared);
+
+const employeeNames = employeeRewared.map((emp_name) => emp_name.name);
+console.log(employeeNames);
+
+employeeNames.forEach((name) => console.log(`${name} received a reward`));
