@@ -1,4 +1,4 @@
-console.log("function");
+console.log("--- function ---");
 
 //a block of code that perform a task
 
@@ -51,13 +51,14 @@ const sum = add(10,15);
 console.log(sum);
 
 //Arrow Function
+console.log("--- Arrow Functions ---")
 
 const sqr = (number) => number*number;
 
 const result1 = sqr(10);
 console.log(result1);
 
-console.log("Parameters and Arguments");
+console.log("--- Parameters and Arguments ---");
 
 // Parameters - used when defining a function
 // Arguments - passed when making a function
@@ -73,7 +74,7 @@ sayHII();
 // Array Find 
 // the Find method for arrays returns the first value that statisfies the condition 
 
-console.log("Array Live");
+console.log("--- Array Live ---");
 
 const number1 = [1,2,3,4,5,6,7,8,9];
 
@@ -94,3 +95,23 @@ const names = ['Vedant', 'Aaksh', 'Mori','Nishit'];
 const name5 = names.find((name) => name.startsWith('M'));
 
 console.log(name5);
+
+// Array Includes
+
+//does this array content any elements
+
+console.log("--- Array Includes ---");
+
+const array1 = [1,2,3];
+// console.log(array1.includes(3));//true
+console.log(array1.includes('3'));//false as 3 is number not a string
+
+const bookshelf = ["AdvanceJavaProgramming","ObjectOrientedProgramming","ApplicationDevelopmentBasic"];
+
+//'includes' return a Boolean Value
+if(bookshelf.includes("AdvanceJavaProgramming") === true){
+    console.log("book Found");
+} else {
+    console.log("Book not found");
+}
+
