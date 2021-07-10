@@ -69,3 +69,28 @@ const sayHII = (namee ='No_Name', age = 0) => {
 sayHII();
 
 //default parameters are fail safe system
+
+// Array Find 
+// the Find method for arrays returns the first value that statisfies the condition 
+
+console.log("Array Live");
+
+const number1 = [1,2,3,4,5,6,7,8,9];
+
+const numb2 = number1.find((number) => number > 5);
+
+console.log(numb2);
+
+//example2 
+const states = ['Rajkot','California','Gondal','Jetpur'];
+
+const state = states.find((state) => state.startsWith('C'));
+
+console.log(state);
+
+//example3
+const names = ['Vedant', 'Aaksh', 'Mori','Nishit'];
+
+const name5 = names.find((name) => name.startsWith('M'));
+
+console.log(name5);
